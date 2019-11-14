@@ -65,14 +65,14 @@ h2 {text-align: center; background-color: rgba(2, 61, 15, 0.664)
 }    
 h3 { text-align: center;
     font-size: 35px; 
-    font-family: 'Roboto-BoldCondensed', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Roboto-BoldCondensed', Roboto, sans-serif ;
 }
 p { text-align: center; 
     font-size: 15px;
-    font-family: 'Roboto-Black', "Arial Narrow", sans-serif ;
+    font-family: 'Roboto-Condensed', Roboto, sans-serif ;
     font-weight: bold;
 }      
 h4 { text-align: center;
   font-size: 20px; 
-  font-family: 'Roboto-BoldCondensed', 'Arial Narrow', Arial, sans-serif ;
+  font-family: 'Roboto-BoldCondensed', Roboto, sans-serif ;
   color: white;
