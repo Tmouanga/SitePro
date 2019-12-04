@@ -25,8 +25,7 @@ h2 {text-align: center; background-color: rgba(2, 61, 15, 0.664)
 
      }
 
-     {
-      box-sizing: border-box;
+    * {box-sizing: border-box;
     }
     
     body {
@@ -62,17 +61,203 @@ h2 {text-align: center; background-color: rgba(2, 61, 15, 0.664)
 .topnav a:hover {
   background-color: rgba(221, 221, 221, 0.466);
   color: black ;   
-}    
+}   
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h3 { text-align: center;
     font-size: 35px; 
     font-family: 'Roboto-BoldCondensed', Roboto, sans-serif ;
+    color: pink;
 }
 p { text-align: center; 
     font-size: 15px;
     font-family: 'Roboto-Condensed', Roboto, sans-serif ;
     font-weight: bold;
+    color: white;
 }      
 h4 { text-align: center;
   font-size: 20px; 
   font-family: 'Roboto-BoldCondensed', Roboto, sans-serif ;
   color: white;
+}  
+
+
+  div.gallery {
+    border: 1px solid rgba(204, 204, 204, 0);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgba(119, 119, 119, 0.781);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 12%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    
+h5 {text-align: center;
+  font-size: 20px; 
+  font-family: 'Roboto-BoldCondensed', Roboto, sans-serif ;
+  color: white;
+  }  
+
+p { text-align: center; 
+  font-size: 15px;
+  font-family: 'Roboto-Condensed', Roboto, sans-serif ;
+  font-weight: bold;
+  color: white;
+}      
+
+br {
+  
+}
+
+section {
+  content: " ";
+  display: table;
+  position: relative;
+  
+}
+
+/* Create three equal columns that floats next to each other */
+.biographie {
+  float: left;
+  width: 50%;
+  padding: 80px;
+  background: #bb6c80;
+}
+ 
+.citation {
+  float: left;
+  width: 50%;
+  padding: 89px;
+  background: #cca4ad;
+}
+
+h6 {
+  text-align: center;
+  font-size: 20px; 
+  font-family: 'Roboto-BoldCondensed', Roboto, sans-serif ;
+  color: white;
+  }  
+
+pre {
+  text-align: center; 
+  font-size: 14px;
+  font-family: 'Roboto', Roboto, sans-serif ;
+  font-weight: bold;
+  color: white;
+} 
+
+a { 
+ font-family: 'Roboto-BoldCondensed', Roboto, sans-serif ;
+ color: black;
+ text-decoration: none;
+}  
+
+
+.suitebiographie {
+  float: left;
+  width: 50%;
+  padding: 80px;
+  background: #cca4ad;
+}
+ 
+.playlist2 {
+  float: left;
+  width: 50%;
+  padding: 80px;
+  background: #683441;
+}  
+
+
+.imageschamp {
+  padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.casepro {
+  float: left;
+  padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #cca4ad;
+  width: auto;
+}
+
+
+.footerdown {
+  padding: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #000000;
+  width: auto;
+}
+
+
+.socialmedia {
+float: left;  
+}
+
+.mail{
+  float: right;
+}
+
+/* Clear floats after the columns */
+.rowafter {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
